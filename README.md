@@ -33,16 +33,18 @@
 4. Terminal will prompt you for a GRUB password.
    1. ***Recommend this password be different from your login password, as your login password will be changing every 60 days.***
    2.	Use a password manager or remember your password.
-5.	Copy the generated hash
+5. Copy the generated hash
    1. Example hash: ```grub.pbkdf2.sha512.10000.095DB0192324CCACC86DB81455C7E45B266FA9570CAFE8FC413A4C756F6666A35CD907EB73BE95D2C469CAA9C8FEB0F278365738B1FD7AB96EDFA15D0442D8D7.2EC836CCB165599D63799071B2069D058E5F42FCEC6804ACCD2C7EA6CF722380F1FF4E5191D7B0385152482E829F3FBB44AA626D59CE609092B8150E610C502B```
 6. The following step can be conducted within terminal (e.g., with nano) or can be conducted with the built-in Gnome-Text-Editor
    1.	Edit /etc/grub.d/40_custom and add to the end of the file:
    2. ```set superusers=“<your username>”```
    3. ```password_pbkdf2 <your username> grub.pbkdf2.sha512.10000.095DB0192324CCACC86DB81455C7E45B266FA9570CAFE8FC413A4C756F6666A35CD907EB73BE95D2C469CAA9C8FEB0F278365738B1FD7AB96EDFA15D0442D8D7.2EC836CCB165599D63799071B2069D058E5F42FCEC6804ACCD2C7EA6CF722380F1FF4E5191D7B0385152482E829F3FBB44AA626D59CE609092B8150E610C502B```
-   4. ***NOTE: replace ```<your username>``` with your actual username. If this is done incorrectly, you will have to re-image your device
-7.	Run:
-    1. ```sudo update-grub```
-8. Reboot\
+   4. ***NOTE: replace ```<your username>``` with your actual username. If this is done incorrectly, you will have to re-image your device***
+   5. ***NOTE: #6.iii is <ins>one</ins> line***
+   6. ***NOTE: replace the hash in this example with the hash that was generated in #5.i above***
+7. Run:
+   1. ```sudo update-grub```
+8. Reboot
 
 ***After this reboot, you will be forced to login with your username and GRUB password configured in #4.1 above***
 
