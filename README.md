@@ -1,13 +1,15 @@
 # Onboarding Instructions
 ## Intial Configuration and prerequisites
-1. Download all *.sh files in this repo.
-2. If you have not already done so, ensure your local password meets the following requirements:
+1. Download all *.sh files in this repo. Files to download include:
+   1. ubuntu-stig-remediation-v5.sh
+   2. install-prerequisites-ubuntu.sh
+3. If you have not already done so, ensure your local password meets the following requirements:
    1. Length: 14+ characters
    2. lowercase: at least 1
    3. upercase: at least 1
    4. number: at least 1
    5. special: at least 1
-3. Update your device with one of the following options:
+4. Update your device with one of the following options:
    1. Open terminal through the GUI (Show Apps) or with ctrl+alt+t
       1. Type in this command, and let it complete
       2. ```sudo apt update && sudo apt upgrade -y```
@@ -16,7 +18,7 @@
       1. Open App Center from your Dash
       2. Click on Manage in the lower left hand corner
       3. Click Update All
-4. Install the prerequisites via terminal
+5. Install the prerequisites via terminal
    1. Open Terminal
    2. Navigate to where you downloaded the sh file earlier (Firefox defaults to **$Home/Downloads**)
    3. For each sh file run the following command:
@@ -25,7 +27,7 @@
    6. ```sudo ./<filename>.sh```
    7. Ignore any reboot requests until all scripts have run.
    8. Reboot
-## Configure GRUB password
+## Configure GRUB password (WARNING: Follow these steps exactly. This can break the installation of Ubuntu on your device if done incorrectly)
 1. Open a Terminal window
 2. Type in the following command:
    1. ```sudo grub-mkpasswd-pbkdf2```
