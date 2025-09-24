@@ -1,0 +1,704 @@
+{
+    "Rules": [
+        {
+            "SettingName": "stig-270647",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270647: telnet package installed",
+                    "Description": "Remove the telnet package from Ubuntu 24.04 LTS: sudo apt remove telnetd"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270648",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270648: rsh-server package installed",
+                    "Description": "Remove the rsh-server package: sudo apt remove rsh-server"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270649",
+            "Operator": "IsEquals", 
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270649: nis package installed",
+                    "Description": "Remove the nis package: sudo apt remove nis"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270650",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270650: ntalk package installed",
+                    "Description": "Remove the ntalk package: sudo apt remove ntalk talk"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270665",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270665: SSH not installed",
+                    "Description": "Install the ssh meta-package: sudo apt install -y ssh"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270666",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270666: SSH service not enabled",
+                    "Description": "Enable the ssh service: sudo systemctl enable ssh.service && sudo systemctl start ssh.service"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270675",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270675: GRUB password not configured",
+                    "Description": "Configure GRUB password protection for single-user mode"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270676",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270676: auditd not installed",
+                    "Description": "Install auditd: sudo apt install auditd audispd-plugins"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270677",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270677: Audit service not enabled",
+                    "Description": "Enable auditd service: sudo systemctl enable auditd"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270708",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270708: X11 forwarding enabled",
+                    "Description": "Set 'X11Forwarding no' in /etc/ssh/sshd_config"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270711",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270711: Ctrl-Alt-Delete not disabled in GUI",
+                    "Description": "Mask the ctrl-alt-del.target: sudo systemctl mask ctrl-alt-del.target"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270712",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270712: Ctrl-Alt-Delete not disabled",
+                    "Description": "Disable the ctrl-alt-del.target: sudo systemctl mask ctrl-alt-del.target"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270713",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270713: Accounts with blank passwords found",
+                    "Description": "Lock or set passwords for all accounts with blank passwords"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270714",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270714: PAM allows null passwords",
+                    "Description": "Remove 'nullok' option from /etc/pam.d/common-password"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270717",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270717: SSH permits empty passwords",
+                    "Description": "Set 'PermitEmptyPasswords no' in /etc/ssh/sshd_config"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270719",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270719: SSH permits root login",
+                    "Description": "Set 'PermitRootLogin no' in /etc/ssh/sshd_config"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270721",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270721: SSH MACs not configured",
+                    "Description": "Configure FIPS-approved MACs in /etc/ssh/sshd_config"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270722",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270722: SSH Ciphers not configured",
+                    "Description": "Configure FIPS-approved ciphers in /etc/ssh/sshd_config"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270723",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270723: SSH banner not configured",
+                    "Description": "Configure Banner /etc/issue.net in /etc/ssh/sshd_config"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270729",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270729: SSH public key authentication disabled",
+                    "Description": "Set 'PubkeyAuthentication yes' in /etc/ssh/sshd_config"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270732",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270732: SSH KexAlgorithms not FIPS compliant",
+                    "Description": "Configure FIPS-approved KexAlgorithms in /etc/ssh/sshd_config"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270734",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270734: GDM banner not enabled",
+                    "Description": "Configure GDM banner in /etc/gdm3/greeter.dconf-defaults"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270735",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270735: vlock not installed",
+                    "Description": "Install vlock: sudo apt install vlock"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270736",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270736: TMOUT not configured",
+                    "Description": "Set TMOUT=900 in /etc/bash.bashrc or /etc/profile"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270737",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270737: Screen lock not enabled",
+                    "Description": "Enable screen lock: gsettings set org.gnome.desktop.screensaver lock-enabled true"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270741",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270741: USBGuard not installed",
+                    "Description": "Install USBGuard: sudo apt install usbguard"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270742",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270742: SSH ClientAliveCountMax not configured",
+                    "Description": "Set 'ClientAliveCountMax 0' or '1' in /etc/ssh/sshd_config"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270743",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270743: SSH ClientAliveInterval not configured",
+                    "Description": "Set 'ClientAliveInterval 600' or less in /etc/ssh/sshd_config"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270744",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270744: Password minimum length insufficient",
+                    "Description": "Set minlen=15 in /etc/security/pwquality.conf"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270750",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270750: Dictionary check not enabled",
+                    "Description": "Set dictcheck=1 in /etc/security/pwquality.conf"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270751",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270751: Password encryption not SHA512",
+                    "Description": "Configure SHA512 in /etc/pam.d/common-password"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270752",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270752: libpam-pwquality not installed",
+                    "Description": "Install libpam-pwquality: sudo apt install libpam-pwquality"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270753",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270753: TCP syncookies not enabled",
+                    "Description": "Enable TCP syncookies: sysctl -w net.ipv4.tcp_syncookies=1"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270759",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270759: ASLR not enabled",
+                    "Description": "Enable ASLR: sysctl -w kernel.randomize_va_space=2"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270761",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270761: NX bit not enabled",
+                    "Description": "Enable NX bit in BIOS/UEFI settings"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270766",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270766: /etc/shadow permissions incorrect",
+                    "Description": "Set proper permissions: chmod 000 /etc/shadow"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270776",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270776: chrony not installed",
+                    "Description": "Install chrony: sudo apt install chrony"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270777",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270777: chrony not configured",
+                    "Description": "Configure NTP servers in /etc/chrony/chrony.conf"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270778",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270778: chrony makestep not configured",
+                    "Description": "Add 'makestep 1 -1' to /etc/chrony/chrony.conf"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270779",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270779: systemd-timesyncd installed",
+                    "Description": "Remove systemd-timesyncd: sudo apt remove systemd-timesyncd"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270780",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270780: ntp package installed",
+                    "Description": "Remove ntp package: sudo apt remove ntp"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270781",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270781: AIDE not installed",
+                    "Description": "Install AIDE: sudo apt install aide aide-common"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270784",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270784: AppArmor not installed",
+                    "Description": "Install AppArmor: sudo apt install apparmor apparmor-utils"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270785",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270785: AppArmor not enabled",
+                    "Description": "Enable AppArmor: sudo systemctl enable apparmor"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270787",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270787: Firewall not installed",
+                    "Description": "Install ufw: sudo apt install ufw"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270788",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270788: Firewall not enabled",
+                    "Description": "Enable firewall: sudo ufw enable"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270805",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270805: USB storage not disabled",
+                    "Description": "Disable USB storage: echo 'install usb-storage /bin/true' > /etc/modprobe.d/usb-storage.conf"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270819",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270819: sudo not installed",
+                    "Description": "Install sudo: sudo apt install sudo"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270820",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270820: sudo logging not configured",
+                    "Description": "Add 'Defaults logfile=/var/log/sudo.log' to /etc/sudoers"
+                }
+            ]
+        },
+        {
+            "SettingName": "stig-270821",
+            "Operator": "IsEquals",
+            "DataType": "String",
+            "Operand": "compliant",
+            "MoreInfoUrl": "https://public.cyber.mil/stigs/downloads/",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "V-270821: sudo use_pty not configured",
+                    "Description": "Add 'Defaults use_pty' to /etc/sudoers"
+                }
+            ]
+        }
+    ]
+}
