@@ -1,0 +1,101 @@
+Wed Sep 24 05:02:17 PM EDT 2025 | Starting complete STIG compliance script for Ubuntu 24.04 LTS (194 checks)
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270647: Checking telnetd not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270648: Checking rsh-server not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270649: Checking nis not installed...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270650: Checking ntalk not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270651: Checking talk not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270652: Checking xinetd not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270653: Checking xorg-x11-server-common not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270654: Checking vsftpd not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270655: Checking tftp-server not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270656: Checking cyrus-imapd not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270657: Checking dovecot not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270658: Checking samba not installed...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270659: Checking squid not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270660: Checking snmpd not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270661: Checking rsync not installed...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270662: Checking ypbind not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270663: Checking ypserv not installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270664: Checking avahi-daemon not installed...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270665: Checking openssh-server installed...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270666: Checking SSH service...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270667: Checking user accounts...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270668: Checking authentication mechanisms...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270669: Checking temporary accounts...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270670: Checking emergency accounts...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270671: Checking password minimum age...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270672: Checking password max age...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270673: Checking password complexity...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270674: Checking password history...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270675: Checking GRUB authentication...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270676: Checking auditd installed...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270677: Checking audit service enabled...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270678: Checking audit log permissions...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270679-707: Checking audit rules...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270708: Checking X11 forwarding...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270709: Checking SSH privilege separation...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270710: Checking SSH strict mode...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270711: Checking Ctrl-Alt-Delete in GUI...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270712: Checking Ctrl-Alt-Delete disabled...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270713: Checking blank passwords...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270714: Checking PAM nullok...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270715: Checking SSH HostbasedAuthentication...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270716: Checking SSH IgnoreRhosts...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270717: Checking SSH empty passwords...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270718: Checking SSH PermitUserEnvironment...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270719: Checking SSH PermitRootLogin...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270720: Checking SSH protocol...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270721: Checking SSH MACs...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270722: Checking SSH Ciphers...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270723: Checking SSH banner...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270724: Checking SSH LogLevel...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270725: Checking SSH MaxAuthTries...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270726: Checking SSH MaxSessions...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270727: Checking SSH MaxStartups...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270728: Checking SSH LoginGraceTime...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270729: Checking SSH PubkeyAuthentication...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270730: Checking SSH RhostsRSAAuthentication...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270731: Checking SSH compression...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270732: Checking SSH KexAlgorithms...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270733: Checking warning banner...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270734: Checking GDM banner...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270735: Checking vlock...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270736: Checking TMOUT...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270737: Checking screen lock...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270738: Checking screen lock delay...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270739: Checking idle activation...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270740: Checking idle delay...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270741: Checking USBGuard...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270742: Checking SSH ClientAliveCountMax...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270743: Checking SSH ClientAliveInterval...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270744: Checking password minimum length...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270745: Checking password dcredit...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270746: Checking password ucredit...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270747: Checking password lcredit...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270748: Checking password ocredit...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270749: Checking password difok...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270750: Checking password dictcheck...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270751: Checking password encryption...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270752: Checking libpam-pwquality installed...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270753: Checking TCP syncookies...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270754: Checking IPv4 forwarding...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270755: Checking IPv6 forwarding...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270756: Checking ICMP redirects...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270757: Checking source routed packets...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270758: Checking martian packet logging...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270759: Checking ASLR...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270760: Checking core dumps...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270761-840: Checking remaining system settings...Wed Sep 24 05:02:17 PM EDT 2025 | stig-270761: Checking NX bit...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270762: Checking kernel module loading...non-compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270763: Checking unprivileged BPF...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270764: Checking kernel pointer hiding...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270765: Checking ptrace scope...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270766: Checking /etc/shadow permissions...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270767: Checking /etc/shadow- permissions...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270768: Checking /etc/gshadow permissions...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270769: Checking /etc/gshadow- permissions...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270770: Checking /etc/passwd permissions...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270771: Checking /etc/passwd- permissions...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270772: Checking /etc/group permissions...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270773: Checking /etc/group- permissions...compliant
+Wed Sep 24 05:02:17 PM EDT 2025 | stig-270774: Checking cron permissions...
